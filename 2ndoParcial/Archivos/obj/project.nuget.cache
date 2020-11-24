@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3C3+NWgQexb38r2di2jzHZnO3o/FxCPT/Dnat8jF7GQdlgBV+OFfl8+tIf3tVsswLajeq2DyWSGB2BxoPjlWgA==",
+  "dgSpecHash": "9hmcAdxvRXCA9BopQo1+f0tf09vchpO+Bq9OJVFVcxAGw5S/Unn3T9uTCGkLf4R9pJxQ4qip0ICA+4QyPW+TCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Excepciones\\Excepciones.csproj",
+  "projectFilePath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Archivos\\Archivos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\feder\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\feder\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

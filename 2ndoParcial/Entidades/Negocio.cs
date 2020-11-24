@@ -66,7 +66,6 @@ namespace Entidades
             if (!archivoXml.Guardar(rutaStr.ToString(), Negocio.ListaPedidos))
             {
                 rtrn = false;
-
             }
             return rtrn;
         }

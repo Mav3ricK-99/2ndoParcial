@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Excepciones\\Excepciones.csproj",
-      "projectName": "Excepciones",
-      "projectPath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Excepciones\\Excepciones.csproj",
+      "projectUniqueName": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Archivos\\Archivos.csproj",
+      "projectName": "Archivos",
+      "projectPath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Archivos\\Archivos.csproj",
       "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Excepciones\\obj\\",
+      "outputPath": "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\Archivos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",

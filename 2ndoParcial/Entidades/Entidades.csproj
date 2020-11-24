@@ -52,8 +52,8 @@
     <Compile Include="Temporizador.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TP4\Archivos\Archivos.csproj">
-      <Project>{9996c61e-445f-4bdc-9e1f-768b4a3a29bb}</Project>
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{e0b56691-fb86-4a12-83e4-3f585bb01aa9}</Project>
       <Name>Archivos</Name>
     </ProjectReference>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">

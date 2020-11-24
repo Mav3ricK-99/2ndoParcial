@@ -25,8 +25,6 @@ namespace System.Collections.Generic
 
         public static bool DetenerHilos(this List<Thread> listaHilos)
         {
-            if (listaHilos.Count == 0 || listaHilos == null)
-                throw new ListaVaciaException();
 
             foreach (Thread hilo in listaHilos)
             {

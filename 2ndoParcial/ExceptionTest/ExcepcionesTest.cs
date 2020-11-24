@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Entidades;
 using Excepciones;
 using System.Collections.Generic;
+using System.IO;
 
 namespace ExceptionTest
 {
@@ -19,12 +20,15 @@ namespace ExceptionTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(ListaVaciaException))]
+        [ExpectedException(typeof(LeerPedidosException))]
         public void LeerPedidosException()
         {
-            //System.IO.File.Move(@"C:/", destinationFile);
+            System.IO.File.Move("C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\LocalForms\\bin\\Debug\\Pedidos.xml", "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\LocalForms\\bin\\Pedidos.xml");
+            Negocio.LeerPedidos();
+            System.IO.File.Move("C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\LocalForms\\bin\\Pedidos.xml", "C:\\Users\\feder\\source\\repos\\2ndoParcial\\2ndoParcial\\LocalForms\\bin\\Debug\\Pedidos.xml");
+
         }
-        
+
 
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using Excepciones;
 
 namespace LocalForms
 {
@@ -16,9 +17,15 @@ namespace LocalForms
         static void Main()
         {
             Negocio.NombreNegocio = "Comidas Rapidas";
+            try { 
             Negocio.IniciarNegocio();
+            }catch(LeerPedidosException exc)
+            {
+                MessageBox.Show(exc.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             //Negocio.AgregarPedido(new Pedido(EOpciones.GrandBacon));
             //Negocio.GuardarPedidos();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
